@@ -1,0 +1,114 @@
+body {
+  background-color: #f6f6f6;
+  font-size: 18px;
+  color: #4e4e4e;
+}
+
+div.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+div.cv_wrap div.cv_title {
+  margin-bottom: 50px;
+  padding: 0 50px;
+}
+div.cv_wrap div.cv_title h1 {
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+div.cv_wrap div.cv_title h1 span {
+  font-weight: 700;
+}
+div.cv_wrap div.cv_title div.profi_title {
+  color: #5e5d60;
+  font-style: italic;
+  font-size: 18px;
+}
+div.cv_wrap div.cv_contact {
+  margin-bottom: 40px;
+}
+div.cv_wrap div.cv_contact ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+div.cv_wrap div.cv_contact ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #6c6c6f;
+  padding: 10px 0;
+  background-color: #efeef1;
+  text-decoration: none;
+  font-size: 18px;
+}
+div.cv_wrap div.cv_contact ul li a i {
+  margin-right: 10px;
+}
+div.cv_wrap div.cv_contact ul li:nth-of-type(2) a {
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+}
+div.cv_wrap div.cv_content {
+  padding: 0 50px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 100px;
+  -ms-grid-columns: 1fr 100px 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+div.cv_wrap div.cv_content div.content_item {
+  margin-bottom: 30px;
+}
+div.cv_wrap div.cv_content div.content_item div.content_title {
+  letter-spacing: 4px;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #282828;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text {
+  margin-bottom: 20px;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.content_text_title {
+  margin-bottom: 10px;
+  font-size: 28px;
+  letter-spacing: 4px;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.content_text_subtitle {
+  margin-bottom: 10px;
+  color: #bfbec1;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.content_text_text {
+  line-height: 30px;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.content_text_text ul.skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+  grid-template-columns: repeat(2, 1fr);
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.languages_items div.languages_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+}
+div.cv_wrap div.cv_content div.content_item div.content_text div.languages_items div.languages_item span.title {
+  margin-bottom: 10px;
+  color: #bfbec1;
+}
